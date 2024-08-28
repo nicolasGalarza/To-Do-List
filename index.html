@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-Do List <img src="img/icons8-lista-de-quehaceres-100.png"></h1>
+    </header>
+    <main>
+        <div class="row">
+            <input type="text" id="new-task" placeholder="Hola, que deseas hacer hoy?" />
+            <button onclick="addTask()">Agregar Tarea</button>
+        </div>
+        <br>
+        <div class="list-div">
+            <ul id="list-container"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
